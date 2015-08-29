@@ -1,0 +1,44 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: @body-off-color;
+	border-top: 1px solid @gray-lighter;
+
+	ul.cert-list li {
+		vertical-align: top;
+	}
+
+	div.row > div {
+		padding-top: 10px;
+	}
+}
+
+@media (max-width: @screen-md-max) {
+	.footer .right-col {
+		.center-block()
+	}
+	.footer .center-col,
+	.footer .left-col {
+		text-align: center;
+	}
+}
+
+@media (min-with: @screen-lg-min) {
+	.footer .center-col {
+		text-align: center;
+	}
+	.footer .right-col {
+		text-align: right;
+	}
+}
