@@ -7,7 +7,7 @@ angular.module('users').run(['Menus',
 		Menus.addMenuItem('topbar', 'Sign In/Up', 'users', '', '/users', true);
 	}
 ]);
-
+/*
 // Config HTTP Error Handling
 angular.module('users').config(['$httpProvider',
 	function($httpProvider) {
@@ -36,3 +36,4 @@ angular.module('users').config(['$httpProvider',
 		]);
 	}
 ]);
+*/
