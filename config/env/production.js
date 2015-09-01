@@ -36,7 +36,7 @@ module.exports = {
 	google: {
 		clientID: process.env.GOOGLE_ID || '284262120326-f7pcoo4bibl2jshlqriuabffun0oifas.apps.googleusercontent.com',
 		clientSecret: process.env.GOOGLE_SECRET || 'Px5pJ-2QRQGco5vnrMh29Qos',
-		callbackURL: 'http://www.jacobsmullin.com/'
+		callbackURL: 'http://www.jacobsmullin.com/oauth2callback'
 	},
 	linkedin: {
 		clientID: process.env.LINKEDIN_ID || 'APP_ID',
