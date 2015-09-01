@@ -19,7 +19,7 @@ angular.module('resume').controller('ResumeController', ['$scope',
 				'location':'Bellingham, WA',
 				'dates':'December 2011 - Present',
 				'info':[
-					'Need the ability to use constant teamwork/ management skills to overcome tasksand avoid conflict.',
+					'Need the ability to use constant teamwork/ management skills to overcome tasks and avoid conflict.',
 					'Responsible for maintaining EVS, Home Depots customer service system, constant contact with their help desk in Atlanta, GA.'
 				]
 			},
