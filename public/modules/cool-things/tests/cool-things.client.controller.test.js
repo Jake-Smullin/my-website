@@ -2,9 +2,9 @@
 
 (function() {
 	// Cool things Controller Spec
-	describe('Cool things Controller Tests', function() {
+	describe('Cool stuff Controller Tests', function() {
 		// Initialize global variables
-		var CoolThingsController,
+		var CoolStuffController,
 			scope,
 			$httpBackend,
 			$stateParams,
@@ -45,7 +45,7 @@
 			$location = _$location_;
 
 			// Initialize the Cool things controller.
-			CoolThingsController = $controller('CoolThingsController', {
+			CoolStuffController = $controller('CoolStuffController', {
 				$scope: scope
 			});
 		}));

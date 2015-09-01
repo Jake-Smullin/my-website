@@ -4,6 +4,6 @@
 angular.module('cool-things').run(['Menus',
 	function(Menus) {
 		// Set top bar menu items
-		Menus.addMenuItem('topbar', 'Cool Things', 'cool-things', '', '/cool-things', true);
+		Menus.addMenuItem('topbar', 'Cool Stuff', 'cool-things', '', '/cool-things', true);
 	}
 ]);

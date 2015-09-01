@@ -1,4 +1,4 @@
-'use strict';
+'use strict';// Configuring the CoolThings module
 
 angular.module('users').controller('AuthenticationController', ['$scope', '$http', '$location', 'Authentication',
 	function($scope, $http, $location, Authentication) {

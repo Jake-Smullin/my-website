@@ -47,7 +47,7 @@ angular.module('resume').controller('ResumeController', ['$scope',
 				'location':'Bellingham, WA',
 				'dates':'January 2015 - Present',
 				'info':[
-					'Data processing, GUI design and algorithm implementation in Matlab.'
+					'Data processing in Matlab.'
 				]
 			}
 		];
