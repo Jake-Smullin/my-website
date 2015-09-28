@@ -1,12 +1,15 @@
 <div class="container" data-ng-controller="HeaderController">
 	<div class="navbar-header">
+
 		<button class="navbar-toggle" type="button" data-ng-click="toggleCollapsibleMenu()">
 			<span class="sr-only">Toggle navigation</span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a href="/#!/" class="navbar-brand">Home</a>
+		<a href="/#!/" class="navbar-brand">
+			<img class="hidden-xs" src="/modules/core/img/brand/mylogo.png" alt="My Logo" title="Home" style="height: 40px;">
+			<img class="visible-xs" src="/modules/core/img/brand/mylogo.png" alt="My Logo" title="Home" style="height: 25px;"></a>
 	</div>
 	<nav class="collapse navbar-collapse" collapse="!isCollapsed" role="navigation">
 		<ul class="nav navbar-nav" ><!--data-ng-if="menu.shouldRender(authentication.user);">-->

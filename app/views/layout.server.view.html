@@ -50,20 +50,92 @@
 			{% block content %}{% endblock %}
 		</section>
 	</section>
-	<footer class="footer">
-		<section class="container">
-			<div class="row">
-				<div class="col-md-4 left-col text-center">
-					<h5 style="font-family: 'Lato', sans-serif; font-weight: 300;" class="text-uppercase">Jacob K. Smullin &copy; 2015</h5>
-				</div>
-				<div class="col-md-4 center-col text-center">
-					<h5 style="font-family: 'Lato', sans-serif; font-weight: 300;"><a class="text-uppercase" href="mailto:js.1992@live.com">js.1992@live.com</a></h5>
-				</div>
-				<div class="col-md-4 right-col text-center">
-					<h5 style="font-family: 'Lato', sans-serif; font-weight: 300;"><a target="_blank" href="https://github.com/Jake-Smullin">Check Out My GitHub!</a></h5>
-				</div>
-			</div>
-		</section>
+	<footer id="pagefooter" ng-controller="FooterController">
+            <div class="container" class="positionRelative">
+                <div class="row">
+                    <div class="footerItem">
+                        <a href="/#!/cool-things" title="Look at all this cool stuff!">Cool Stuff</a>
+                    </div>
+                    <div class="footerItem">
+                        &middot;
+                    </div>
+                    <div class="footerItem">
+                        <a href="/#!/resume" title="View my current resume online.">Online Resume</a>
+                    </div>
+                    <div class="footerItem">
+                        &middot;
+                    </div>
+                    <div class="footerItem">
+                        <a href="/#!/calendar" title="Check out my personal calendar.">My calendar</a>
+                    </div>
+                    <div class="footerItem">
+                        &middot;
+                    </div>
+                    <div class="footerItem">
+                        <a href="/#!/users" title="Sign in.">Sign In</a>
+                    </div>
+                    <div class="footerItem">
+                        &middot;
+                    </div>
+                    <div class="footerItem">
+                        <a href="/#!/signup" title="Sign up.">Sign Up</a>
+                    </div>
+                    <div class="footerItem">
+                        &middot;
+                    </div>
+                    <div class="footerItem">
+                        <a href="/#!/password/forgot" title="Recover your password.">Password recovery</a>
+                    </div>
+                    <div class="footerItem">
+                        &middot;
+                    </div>
+                    <div class="footerItem">
+                        <a target ="_blank" href="https://github.com/Jake-Smullin" title="Check out my GitHub.">My GitHub</a>
+                    </div>
+                    <div class="footerItem">
+                        &middot;
+                    </div>
+                    <div class="footerItem">
+                        <a href="mailto:js.1992@live.com" title="Contact me via email.">Contact</a>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 15px;">
+                    <div class="footerItem">
+                        <a href="//www.facebook.com/jacobsmullin">
+                            <img src="https://vitaliator.com/img/icons/facebook_icon.png" alt="Facebook" title="Facebook" class="footerIcon" onmouseover="this.src = 'https://vitaliator.com/img/icons/facebook_icon_hover.png'" onmouseout="this.src = 'https://vitaliator.com/img/icons/facebook_icon.png'">
+                        </a>
+                    </div>
+                    <div class="footerItem" ng-show="false">
+                        <a href="//google.com">
+                            <img src="https://vitaliator.com/img/icons/google_plus_icon.png" alt="Google Plus" title="Google" class="footerIcon" onmouseover="this.src = 'https://vitaliator.com/img/icons/google_plus_icon_hover.png'" onmouseout="this.src = 'https://vitaliator.com/img/icons/google_plus_icon.png'">
+                        </a>
+                    </div>
+                    <div class="footerItem">
+                        <a href="//twitter.com">
+                            <img src="https://vitaliator.com/img/icons/twitter_icon.png" alt="Twitter" title="Twitter" class="footerIcon" onmouseover="this.src = 'https://vitaliator.com/img/icons/twitter_icon_hover.png'" onmouseout="this.src = 'https://vitaliator.com/img/icons/twitter_icon.png'">
+                        </a>
+                    </div>
+                    <div class="footerItem">
+                        <a href="//instagram.com">
+                            <img src="https://vitaliator.com/img/icons/instagram_icon.png" alt="Instagram" title="Instagram" class="footerIcon" onmouseover="this.src = 'https://vitaliator.com/img/icons/instagram_icon_hover.png'" onmouseout="this.src = 'https://vitaliator.com/img/icons/instagram_icon.png'">
+                        </a>
+                    </div>
+                    <div class="footerItem">
+                        <a href="//pinterest.com">
+                            <img src="https://vitaliator.com/img/icons/pinterest_icon.png" alt="Pinterest" title="Pinterest" class="footerIcon" onmouseover="this.src = 'https://vitaliator.com/img/icons/pinterest_icon_hover.png'" onmouseout="this.src = 'https://vitaliator.com/img/icons/pinterest_icon.png'">
+                        </a>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 15px;">
+                    &copy; {{ currentYear}} - Jacob K. Smullin - All Rights Reserved
+                </div>
+            </div>
+            <div class="positionAbsolute hidden-xs hidden-sm" style="right: 30px; top: 25px;">
+                <img src="https://vitaliator.com/img/worldmap.png" alt="Weltkarte mit einer Markierung von Österreich" title="Der Ursprung von Vitaliator befindet sich in Österreich">
+            </div>
+        </footer>
+    </div>
+
 	</footer>
 	<!--Embedding The User Object-->
 	<script type="text/javascript">
