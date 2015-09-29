@@ -7136,7 +7136,7 @@ footer a:hover {
     height: 100vh;
     min-height: 100%;
     position: relative;
-    background: url(http://www.wallpapermania.eu/images/lthumbs/2012-07/3218_Computer-power-abstract-binary-code.jpg) no-repeat;
+    background: url(/modules/core/img/brand/background4.jpg) no-repeat;
     background-size: cover;
     background-position-x: center;
 }
